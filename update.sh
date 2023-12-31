@@ -79,7 +79,7 @@ echo "Generating release file"
 apt-ftparchive release . > Release
 
 echo "Signing release file"
-gpg --default-key "${GPG_KEY_ID}" -abs -o - Release > Release.gpg
-gpg --default-key "${GPG_KEY_ID}" --clearsign -o - Release > InRelease
+gpg --default-key "${GPG_KEY_ID}!" -abs -o - Release > Release.gpg
+gpg --default-key "${GPG_KEY_ID}!" --clearsign -o - Release > InRelease
 
 echo "Done with $DISTRO!"
