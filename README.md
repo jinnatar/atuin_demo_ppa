@@ -1,6 +1,6 @@
 # Atuin Demo PPA
 
-This repository hosts Debian (+derivative) compatible DEBs. Much of the mechanisms are inspired by https://github.com/kanidm/kanidm_ppa/, used under the MPL 2.0 license and vice versa licensed as MPL 2.0.
+This repository hosts Debian (+derivative) compatible debs. Much of the mechanisms are inspired by https://github.com/kanidm/kanidm_ppa/, used under the MPL 2.0 license and vice versa licensed as MPL 2.0.
 
 WARNING: This repo is purely a demo that will go away and be replaced by a more official one, if successful. Do not rely on this one specifically!
 
