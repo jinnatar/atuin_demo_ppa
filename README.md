@@ -15,10 +15,10 @@ set -o pipefail
 sudo mkdir -p /etc/apt/trusted.gpg.d/
 curl -s --compressed "https://jinnatar.github.io/atuin_demo_ppa/KEY.gpg" \
     | gpg --dearmor \
-    | sudo tee /etc/apt/trusted.gpg.d/kanidm_ppa.gpg >/dev/null
+    | sudo tee /etc/apt/trusted.gpg.d/atuin_ppa.gpg >/dev/null
 
 sudo curl -s --compressed "https://jinnatar.github.io/atuin_demo_ppa/atuin_ppa.list" \
-    | sudo tee /etc/apt/sources.list.d/kanidm_ppa.list
+    | sudo tee /etc/apt/sources.list.d/atuin_ppa.list
 
 sudo apt update
 ```
