@@ -1,0 +1,1 @@
+deb [signed-by=/etc/apt/trusted.gpg.d/atuin_ppa.gpg] https://jinnatar.github.io/atuin_demo_ppa/debian ./
