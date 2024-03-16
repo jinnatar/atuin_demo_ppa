@@ -13,4 +13,5 @@ apt-get update && apt-get -y install \
     apt-utils \
     git-lfs \
     git \
-    gnupg
+    gnupg \
+    sudo
